@@ -1,0 +1,20 @@
+{
+  "name": "xxutianyi/php-wecom-sdk",
+  "type": "library",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "xXutianyi\\PhpWecomSdk\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "徐添翼 XuTianyi",
+      "email": "xutianyi12@outlook.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0.2"
+  }
+}
