@@ -14,7 +14,7 @@ class Message extends SDK
     private $toTag;
     private $params;
 
-    public function __construct(Config $config, array $toUser, array $toParty, array $toTag)
+    public function __construct(Config $config, array $toUser = [], array $toParty = [], array $toTag = [])
     {
         foreach ($toUser as $value) {
             $this->toUser .= $value . '|';
@@ -33,7 +33,6 @@ class Message extends SDK
             "toparty" => $this->toParty,
             "totag" => $this->toTag,
             "agentid" => $config->AgentID,
-            "safe" => 1,
         ];
         parent::__construct($config);
     }
