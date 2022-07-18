@@ -1,6 +1,6 @@
 <?php
 
-namespace xXutianyi\WecomSdk\Modal;
+namespace xXutianyi\WecomSdk\Model;
 
 use JetBrains\PhpStorm\ArrayShape;
 
