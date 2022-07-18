@@ -16,6 +16,7 @@
   ],
   "require": {
     "php": "^8.0.2",
-    "xxutianyi/php-wecom-auth": "^0.1.1"
+    "xxutianyi/php-wecom-auth": "^0.1.3",
+    "ext-curl": "*"
   }
 }

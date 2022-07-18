@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2715ca397c72c1ec2ef266e9db35405c",
+    "content-hash": "56768de9ea29f0f848f9d9fc282d39e9",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -1080,16 +1080,16 @@
         },
         {
             "name": "xxutianyi/php-wecom-auth",
-            "version": "v0.1.1",
+            "version": "v0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/xxutianyi/php-wecom-auth.git",
-                "reference": "fd40065409ecce9d244c568c2ba139d1f0732fb8"
+                "reference": "1fe8ad2ceb6f7a97a39541f1829566753a3bb5b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xxutianyi/php-wecom-auth/zipball/fd40065409ecce9d244c568c2ba139d1f0732fb8",
-                "reference": "fd40065409ecce9d244c568c2ba139d1f0732fb8",
+                "url": "https://api.github.com/repos/xxutianyi/php-wecom-auth/zipball/1fe8ad2ceb6f7a97a39541f1829566753a3bb5b5",
+                "reference": "1fe8ad2ceb6f7a97a39541f1829566753a3bb5b5",
                 "shasum": ""
             },
             "require": {
@@ -1122,9 +1122,9 @@
             ],
             "support": {
                 "issues": "https://github.com/xxutianyi/php-wecom-auth/issues",
-                "source": "https://github.com/xxutianyi/php-wecom-auth/tree/v0.1.1"
+                "source": "https://github.com/xxutianyi/php-wecom-auth/tree/v0.1.3"
             },
-            "time": "2022-07-13T19:02:34+00:00"
+            "time": "2022-07-18T18:16:25+00:00"
         }
     ],
     "packages-dev": [],
@@ -1134,7 +1134,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.0.2"
+        "php": "^8.0.2",
+        "ext-curl": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
