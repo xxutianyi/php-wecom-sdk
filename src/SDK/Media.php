@@ -12,7 +12,7 @@ class Media extends SDK
 
     public function upload($filePath, string $fileName, string $type = "file"): array
     {
-        $data = array('media' => new \CURLFile(realpath($filePath), 'application/octet-stream', $fileName));
+        $data = array('media' => new \CURLFile(($filePath), 'application/octet-stream', $fileName));
 
         $url = self::BASE_URL . self::MEDIA_UPLOAD . "?access_token=$this->AccessToken&type=$type";
 
@@ -28,7 +28,7 @@ class Media extends SDK
 
     public function uploadImage($filePath): array
     {
-        $data = array('media' => new \CURLFile(realpath($filePath), 'application/octet-stream', basename($filePath)));
+        $data = array('media' => new \CURLFile(($filePath), 'application/octet-stream', basename($filePath)));
 
         $url = self::BASE_URL . self::MEDIA_UPLOAD_IMAGE . "?access_token=$this->AccessToken";
 
